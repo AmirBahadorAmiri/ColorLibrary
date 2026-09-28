@@ -7,6 +7,10 @@
 ![نسخه آفلاین](https://img.shields.io/badge/نسخه-آفلاین-موجود-success)
 ![مالکیت](https://img.shields.io/badge/مالکیت-bitamooz.com-red)
 
+## 🖼 پیش‌نمایش
+
+![نمای صفحه کتابخانه رنگ](docs/screenshot.png)
+
 ## 📥 نسخه آنلاین
 
 نسخه اصلی و به‌روز پروژه روی وب‌سایت **بیت‌اموزز** در دسترس است:
