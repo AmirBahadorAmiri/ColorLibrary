@@ -1,0 +1,19 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 28 Sep 2026 04:36:18 at https://bitamooz.com/tools/colors/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://bitamooz.com/tools/colors/ -O1 "C:\xampp\htdocs\www\colors library\ColorLibrary" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+04:36:54	Error: 	"Not Found" (404) at link https://bitamooz.com/wp-content/themes/studiare/assets/css/owl.video.play.png (from https://bitamooz.com/tools/colors/)
+04:36:54	Error: 	"Not Found" (404) at link https://bitamooz.com/wp-content/themes/studiare/assets/css/assets/images/icons/favicon.png (from https://bitamooz.com/tools/colors/)
+04:36:54	Warning: 	Retry after error -4 (Connect Error) at link localhost/wpdev/studiare/wp-content/uploads/sites/8/2014/01/spectacles.gif (from https://bitamooz.com/tools/colors/)
+04:36:54	Warning: 	Retry after error -4 (Connect Error) at link https://i.ytimg.com/vi/ID/hqdefault.jpg (from https://bitamooz.com/tools/colors/)
+04:36:56	Warning: 	Retry after error -4 (Connect Error) at link localhost/wpdev/studiare/wp-content/uploads/sites/8/2014/01/spectacles.gif (from https://bitamooz.com/tools/colors/)
+04:36:57	Warning: 	Retry after error -4 (Connect Error) at link https://i.ytimg.com/vi/ID/hqdefault.jpg (from https://bitamooz.com/tools/colors/)
+04:36:58	Error: 	"Connect Error" (-4) after 2 retries at link localhost/wpdev/studiare/wp-content/uploads/sites/8/2014/01/spectacles.gif (from https://bitamooz.com/tools/colors/)
+04:36:59	Error: 	"Connect Error" (-4) after 2 retries at link https://i.ytimg.com/vi/ID/hqdefault.jpg (from https://bitamooz.com/tools/colors/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 41 seconds : 108 links scanned, 99 files written (2469364 bytes overall) [746088 bytes received at 18197 bytes/sec], 2694057 bytes transferred using HTTP compression in 88 files, ratio 23%, 8.5 requests per connection
+(4 errors, 4 warnings, 0 messages)

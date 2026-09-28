@@ -1,0 +1,200 @@
+/* developed by web-premium.ir */
+
+body.dark .hmyt-ai-settings .nav-tab,
+body.dark .nav-tab {
+    background: #353542;
+    color: #9ca3af;
+    border: 1px solid #414150;
+    border-bottom: none;
+}
+
+body.dark .nav-tab-active,
+body.dark .nav-tab-active:focus,
+body.dark .nav-tab-active:focus:active,
+body.dark .nav-tab-active:hover,
+body.dark .hmyt-ai-settings .nav-tab-active {
+    background: #262631;
+    color: #fff;
+    border-bottom: 1px solid #262631;
+}
+
+body.dark .nav-tab:hover {
+    background-color: #414150;
+    color: #e5e7eb;
+}
+
+body.dark div#hmyt_affiliate_meta,
+body.dark div#hmyt_ai_review_summarizer {
+    background: #353542;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    border: 1px solid #414150;
+}
+
+body.dark button#hmyt-ai-delete-description-summary,
+body.dark button#hmyt-ai-delete-post-content-summary,
+body.dark button#hmyt-ai-delete-post-review-summary,
+body.dark button#hmyt-ai-delete-review-summary,
+body.dark button#hmyt-ai-summarize-description-btn,
+body.dark button#hmyt-ai-summarize-post-content-btn,
+body.dark button#hmyt-ai-summarize-post-reviews-btn,
+body.dark button#hmyt-ai-summarize-post-reviews-btn-initial,
+body.dark button#hmyt-ai-summarize-reviews-btn,
+body.dark button#hmyt-ai-summarize-reviews-btn-initial {
+    background-color: #262631;
+    color: #e5e7eb;
+    border: 1px solid #414150;
+}
+
+body.dark button#hmyt-ai-delete-description-summary:hover,
+body.dark button#hmyt-ai-delete-post-content-summary:hover,
+body.dark button#hmyt-ai-delete-post-review-summary:hover,
+body.dark button#hmyt-ai-delete-review-summary:hover,
+body.dark button#hmyt-ai-summarize-description-btn:hover,
+body.dark button#hmyt-ai-summarize-post-content-btn:hover,
+body.dark button#hmyt-ai-summarize-post-reviews-btn-initial:hover,
+body.dark button#hmyt-ai-summarize-post-reviews-btn:hover,
+body.dark button#hmyt-ai-summarize-reviews-btn-initial:hover,
+body.dark button#hmyt-ai-summarize-reviews-btn:hover {
+    background-color: #414150;
+    color: #fff;
+}
+
+body.dark .hmyt-ai-editor-container textarea {
+    background: #262631;
+    color: #fff;
+    border: 1px solid #414150;
+}
+
+body.dark #ai-comment-description,
+body.dark #ai-comment-reviews {
+    background: #353542;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    border: 1px solid #414150;
+}
+
+body.dark .satisfaction-container,
+body.dark .summary-header {
+    background: #262631;
+    border-color: #414150;
+}
+
+body.dark .ai-title-cmnt,
+body.dark .feedback-question,
+body.dark .header-text h3,
+body.dark .satisfaction-text .percentage,
+body.dark .summary-text,
+body.dark .aff-title span {
+    color: #fff !important;
+}
+
+body.dark .disclaimer,
+body.dark .satisfaction-text .label {
+    color: #9ca3af;
+}
+
+body.dark .summary-content-container {
+    background: #262631;
+}
+
+body.dark .pro-item {
+    background: rgba(61, 191, 94, 0.15);
+    color: #49dc4f;
+}
+
+body.dark .con-item {
+    background: rgb(255 79 93 / 4%);
+    color: #ff4f5d;
+}
+
+body.dark .feedback-container {
+    background: #262631;
+    border-color: #414150;
+}
+
+body.dark .feedback-btn {
+    border: 1px solid #414150;
+    background: #262631;
+    color: #9ca3af;
+}
+
+body.dark .feedback-btn:hover {
+    background: #414150;
+    color: #fff;
+}
+
+body.dark .feedback-btn.active {
+}
+
+body.dark .feedback-btn.like-btn:hover {
+    border-color: #49dc4f;
+    background-color: rgba(73, 220, 79, 0.2);
+    color: #49dc4f;
+}
+
+body.dark .feedback-btn.dislike-btn:hover {
+    border-color: #ff4f5d;
+    background-color: rgba(255, 79, 93, 0.2);
+    color: #ff4f5d;
+}
+
+body.dark .summary-footer {
+    background: #262631;
+    color: #9ca3af;
+    border-top: 1px solid #414150;
+}
+
+body.dark .stat-box.positive { background: #059669; color: #fff; }
+body.dark .stat-box.negative { background: #dc2626; color: #fff; }
+body.dark .stat-box.total { background: #2563eb; color: #fff; }
+body.dark .stat-box.percentage { background: #414150; color: #fff; }
+
+body.dark .hmyt-ai-skeleton,
+body.dark .hmyt-ai-skeleton-content,
+body.dark .hmyt-ai-skeleton-disclaimer,
+body.dark .hmyt-ai-skeleton-feedback-button,
+body.dark .hmyt-ai-skeleton-feedback-question,
+body.dark .hmyt-ai-skeleton-footer,
+body.dark .hmyt-ai-skeleton-lottie,
+body.dark .hmyt-ai-skeleton-pros-cons-icon,
+body.dark .hmyt-ai-skeleton-pros-cons-text,
+body.dark .hmyt-ai-skeleton-satisfaction-icon,
+body.dark .hmyt-ai-skeleton-satisfaction-text,
+body.dark .hmyt-ai-skeleton-subtitle,
+body.dark .hmyt-ai-skeleton-title {
+    background: linear-gradient(90deg, #353542 25%, #414150 50%, #353542 75%);
+    background-size: 200% 100%;
+    animation: 1.2s ease-in-out infinite ai-skeleton-loading;
+    box-shadow: none;
+}
+
+body.dark .hmyt-ai-skeleton::before {
+    background: rgba(255, 255, 255, 0.05);
+    animation: 2s ease-in-out infinite pulse;
+}
+
+
+body.dark .hmyt-ai-review-summary.hidden {
+    display: none;
+}
+
+.feedback-btn.dislike-btn.active {
+    color: #ff4f5d;
+    background: transparent;
+}
+
+.feedback-btn.like-btn.active {
+    color: #49dc4f;
+    background: transparent;
+}
+
+body.dark .hmyt-ai-review-summary {
+    border-color: transparent;
+}
+
+body.dark .hmyt-ai-review-summary {
+    background: #353542;
+}
+
+body.dark strong.ai-generated {
+    background: #ffb900;
+}
